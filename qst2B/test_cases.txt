@@ -1,0 +1,39 @@
+# Test Case 1: Small graph with 5 vertices and 5 edges
+5 5
+1 2
+2 3
+3 1
+3 4
+4 5
+
+# Test Case 2: Larger graph with 10 vertices and 12 edges
+10 12
+1 2
+2 3
+3 1
+4 5
+5 6
+6 4
+7 8
+8 9
+9 7
+10 1
+10 4
+10 7
+
+# Test Case 3: Graph with no edges
+5 0
+
+# Test Case 4: Graph with all vertices forming a single SCC
+5 5
+1 2
+2 3
+3 4
+4 5
+5 1
+
+# Test Case 5: Graph with disconnected components
+6 3
+1 2
+3 4
+5 6
